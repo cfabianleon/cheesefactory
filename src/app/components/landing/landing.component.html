@@ -1,0 +1,82 @@
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <!-- Slide One - Set the background image for this slide in the line below -->
+    <div class="carousel-item active" style="background-image: url('../../../assets/queseria.PNG')">
+      <div class="carousel-caption d-none d-md-block">
+        <h2 class="display-4">First Slide</h2>
+        <p class="lead">This is a description for the first slide.</p>
+      </div>
+    </div>
+    <!-- Slide Two - Set the background image for this slide in the line below -->
+    <div class="carousel-item" style="background-image: url('../../../assets/cows.jpg')">
+      <div class="carousel-caption d-none d-md-block">
+        <h2 class="display-4">Second Slide</h2>
+        <p class="lead">This is a description for the second slide.</p>
+      </div>
+    </div>
+    <!-- Slide Three - Set the background image for this slide in the line below -->
+    <div class="carousel-item" style="background-image: url('../../../assets/quesos.jpg')">
+      <div class="carousel-caption d-none d-md-block">
+        <h2 class="display-4">Third Slide</h2>
+        <p class="lead">This is a description for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+</div>
+
+  <div class="container">
+ <section class="logo">
+  <img src="../../../assets/logo.jpg" class="img-fluid" alt="Queseria de Azu">
+ </section>
+
+  <hr>
+  <section>
+    <h2>Media</h2>
+    <div class="video-responsive">
+      <iframe width="420" height="315" [src]='getSourceURL()' frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+  <hr>
+<section>
+  <h2>Conoce la ubicación de nuestra fabrica:</h2>
+  <agm-map [latitude]="lat" [longitude]="lng">
+    <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+</agm-map>
+
+</section>
+
+
+
+    
+  </div>
+
+  <footer class="bg-dark text-white mt-4">
+    <div class="container-fluid py-3">
+      <div class="row">
+        <div class="col-md-3">
+          <h5>La Queseria de Azu</h5></div>
+        <div class="col-md-3"></div>
+        <div class="col-md-3"></div>
+        <div class="col-md-3"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">Fabrica de quesos <span class="small"><br> Kilometro 4,5 duitama paipa sector, Duitama, san jorge, Boyacá</span></div>
+        <div class="col-md-3"></div>
+        <div class="col-md-3 text-right small align-self-end">©2021</div>
+      </div>
+    </div>
+  </footer>
+

@@ -1,0 +1,32 @@
+.carousel-item {
+    height: 70vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  agm-map {
+    height: 300px;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+}
+
+hr{
+  height: 3px;
+  background-color: #673ab7;;
+}
+
+
+footer{
+  background-color: #673ab7 !important;
+}
+
+.video-responsive{
+  display: flex;
+  justify-content: center;
+}
