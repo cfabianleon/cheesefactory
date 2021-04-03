@@ -11,7 +11,7 @@ import { QUESOS } from '../../mocks/mock-quesos';
 })
 export class Page2Component implements OnInit {
   quesos = [
-    {id:1,title: 'Paipa', subtitle: 'Subtitle', content: 'Content here', url: '../../../assets/paipa.PNG'},
+    {id:1,title: 'Paipa', subtitle: 'Subtitle', content: 'Content here', url: 'assets/paipa.PNG'},
     {id:2,title: 'Mozarella', subtitle: 'Subtitle', content: 'Content here', url: '../../../assets/mozarella.PNG'},
     {id:3,title: 'Otro', subtitle: 'Subtitle', content: 'Content here', url: '../../../assets/mozarella.PNG'},
     {id:4,title: 'Paipa', subtitle: 'Subtitle', content: 'Content here', url: '../../../assets/paipa.PNG'},
