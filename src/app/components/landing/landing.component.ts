@@ -7,6 +7,7 @@ import { DomSanitizer } from '@angular/platform-browser';
   styleUrls: ['./landing.component.scss'],
 })
 export class LandingComponent implements OnInit {
+  private id: string = 'qDuKsiwS5xw';
   //slides = [{'image': '/assets/queseria.png'}, {'image': 'https://gsr.dev/material2-carousel/assets/demo.png'},{'image': 'https://gsr.dev/material2-carousel/assets/demo.png'}, {'image': 'https://gsr.dev/material2-carousel/assets/demo.png'}, {'image': 'https://gsr.dev/material2-carousel/assets/demo.png'}];
   constructor(public sanitizer: DomSanitizer) {}
   title = 'La Queseria de Azu';

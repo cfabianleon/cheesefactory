@@ -1,2 +1,12 @@
-<p>queso-detail works!</p>
-<app-footer></app-footer>
+<mat-toolbar class="toolbar-color py-5 mb-4" style="background-color: #673ab7">
+    <span class="center">{{ quesoDetail?.title }}</span>
+  </mat-toolbar>
+  <div class="container">
+    <div class="image-container">
+      <img src="{{ quesoDetail?.url }}" alt="" />
+    </div>
+    <div class="content-container">
+      <p>{{ quesoDetail?.content }}</p>
+    </div>
+  </div>
+  <app-footer></app-footer>
